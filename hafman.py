@@ -1,7 +1,7 @@
 from Tree_test import Tree_test
 from queue import PriorityQueue
 
-class Hafman(Tree_test):
+class Haffman(Tree_test):
 	'''khodet ye niga bendaz bebin in tree maker ro mitooni doros koni ya na'''
     
 	def __init__(self,MyFile):
@@ -49,7 +49,7 @@ class Hafman(Tree_test):
 	
 
 					
-a = Hafman("MyFile.txt")
+a = Haffman("MyFile.txt")
 a.repeatFinder()
 print(a.Data)
 a.treeMaker()
