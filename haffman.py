@@ -1,6 +1,7 @@
 from Tree_test import Tree_test
 from queue import PriorityQueue
-
+from bitstring import BitArray, BitStream
+from sys import argv
 
 class Hafman(Tree_test):
     """khodet ye niga bendaz bebin in tree maker ro mitooni doros koni ya na"""
@@ -8,9 +9,11 @@ class Hafman(Tree_test):
     def __init__(self, MyFile):
         Tree_test.__init__(self)
         self.File = str(open(MyFile, 'r').read())
+        self.file_name = MyFile[0:-4]
         self.Data = {}
         self.dataQueue = PriorityQueue()
         self.map = {}
+        self.coded = ''
 
     def repeatFinder(self):
         """ in tabe kheili rahate niazi be tozih nadare"""
@@ -37,37 +40,38 @@ class Hafman(Tree_test):
                 # ta in khat bayad derakht ma doros beshe hala dorosto ghalatesho khodet ye niga benadaz
         return self.currentNode
 
-
-        #in tikeye paeinam ke asan velesh kon bayad dobare neveshte she.
-        '''for i in range(len(self.objects)): #az inja be bad cherte val kon
-			self.tree[self.objects[i].getLeftChild().getValue()[1]] = code_segment + '0'
-			self.tree[self.objects[i].getRightChild().getValue()[1]] = code_segment + '1'
-			if i%2 == 0 :
-				code_segment = code_segment + '1'
-			else :
-				code_segment = code_segment + '0'
-		'''
-
     def encode(self):
         self.map = {}
-        tree = self.tree
-        code = []
+        tree = self.treeMaker()
         for i in self.Data.keys():
             current = tree
             code = []
             while not (current.getLeftChild() is None and current.getRightChild() is None):
-                if i in current.getLeftChild().getValue():
-                    code.append(0)
-                elif i in current.getRightChild().getValue():
-                    code.append(1)
+                if i in current.getLeftChild().getValue()[1]:
+                    code.append('0')
+                    current = current.getLeftChild()
+                elif i in current.getRightChild().getValue()[1]:
+                    code.append('1')
+                    current = current.getRightChild()
+            self.map[i] = ''.join(code)
+        coded_file = open(self.file_name+'_map.txt', 'w')
+        coded_file.write(str(self.map))
+        coded_file.close()
+        for i in self.File:
+            self.coded += self.map[i]
+        with open(self.file_name + '.bin', 'wb') as f:                     # write the encoded data to a binary file
+            b = BitArray(bin=self.coded)
+            f.write(b.tobytes())
 
+def main():
+    mode = argv[1]
+    if mode == 'e':
+        a = Hafman(argv[2])
+        a.repeatFinder()
+        a.encode()
 
-a = Hafman("MyFile.txt")
-a.repeatFinder()
-print(a.Data)
+    #elif mode == 'd':    # this is for you to complete   argv[1] = mode     argv[2] = binary file    argv[3] = map file
 
-a.treeMaker()
-print(a.currentNode.getRightChild().getLeftChild().getValue())
-#print (a.tree)
+main()
 
 
