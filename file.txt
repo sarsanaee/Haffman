@@ -1,0 +1,560 @@
+// Fig. 14.24: RegexMatches.java
+// Classes Pattern and Matcher.
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class RegexMatches
+{
+   public static void main( String[] args )
+   {
+      // create regular expressi
+
+      String string1 = "Jane's Birthday is 05-12-75\n" +
+         "Dave's Birthday is 11-04-68\n" +
+         "John's Birthday is 04-28-73\n" +
+         "Joe's Birthday is 12-17-77";
+
+      // match regular expression to string and print matches
+      Matcher matcher = expression.matcher( string1 );
+
+      while ( matcher.find() )
+         System.out.println( matcher.group() );
+   } // end main
+} // end class RegexMatches
+
+
+/*
+ **************************************************************************
+ * (C) Copyright 1992-2010 by Deitel & Associates, Inc. and               *
+ * Pearson Education, Inc. All Rights Reserved.                           *
+ *                                                                        *
+ * DISCLAIMER: The authors and publisher of this book have used their     *
+ * best efforts in preparing the book. These efforts include the          *
+ * development, research, and testing of the theories and programs        *
+ * to determine their effectiveness. The authors and publisher make       *
+ * no warranty of any kind, expressed or implied, with regard to these    *
+ * programs or to the documentation contained in these books. The authors *
+ * and publisher shall not be liable in any event for incidental or       *
+ * consequential damages in connection with, or arising out of, the       *
+ * furnishing, performance, or use of these programs.                     *
+ **************************************************************************
+*/
+
+*************************************Invoked:Mon Nov 18 14:30:27 2013Operations start: 196647
+Operations end: 16
+Resource count: 1
+Data block size: 412875625
+Magic marker: 302133811
+Magic cookie: 14007050384008702200
+Index size: 48
+End of data: 435479133
+Number of operations: 0
+Unable to open translated license file. Using untranslated fallback.
+Unable to open translated license file. Using untranslated fallback.
+Unable to open translated license file. Using untranslated fallback.
+Unable to open translated license file. Using untranslated fallback.
+components list is empty in bool QInstaller::PackageManagerCorePrivate::appendComponentsToUninstall(const QList<QInstaller::Component*>&)
+Tmp and install folder are on the same volume. Volume mount point: "/" Free space available: "62.04 GiB"
+Installation space required: "916.38 MiB" Temporary space required: "478.19 MiB" Local repository size: "0.00 bytes"
+backup  operation: Mkdir
+	- arguments: /home/erfan/Qt5.1.1
+Done
+perform  operation: Mkdir
+	- arguments: /home/erfan/Qt5.1.1
+Done
+Install size: 8 components
+backup qt operation: Extract
+	- arguments: installer://qt/1.0.0ThirdPartySoftware_Listing.7z, /home/erfan/Qt5.1.1
+Done
+perform qt operation: Extract
+	- arguments: installer://qt/1.0.0ThirdPartySoftware_Listing.7z, /home/erfan/Qt5.1.1
+Done
+backup  operation: License
+	- arguments: 
+Done
+perform  operation: License
+	- arguments: 
+Done
+backup qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0qt-project-url.7z, /home/erfan/Qt5.1.1
+Done
+perform qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0qt-project-url.7z, /home/erfan/Qt5.1.1
+Done
+backup qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0readme.7z, /home/erfan/Qt5.1.1
+Done
+perform qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0readme.7z, /home/erfan/Qt5.1.1
+Done
+backup qt.tools.qtcreator operation: Extract
+	- arguments: installer://qt.tools.qtcreator/2.8.1qt-creator-opensource-ubuntu1110-64.7z, /home/erfan/Qt5.1.1
+Done
+perform qt.tools.qtcreator operation: Extract
+	- arguments: installer://qt.tools.qtcreator/2.8.1qt-creator-opensource-ubuntu1110-64.7z, /home/erfan/Qt5.1.1
+Done
+backup qt.tools.qtcreator operation: InstallIcons
+	- arguments: /home/erfan/Qt5.1.1/Tools/QtCreator/share/icons
+Done
+perform qt.tools.qtcreator operation: InstallIcons
+	- arguments: /home/erfan/Qt5.1.1/Tools/QtCreator/share/icons
+Done
+backup qt.tools.qtcreator operation: CreateDesktopEntry
+	- arguments: DigiaQtOpenSource-qtcreator.desktop, Type=Application
+Exec=/home/erfan/Qt5.1.1/Tools/QtCreator/bin/qtcreator
+Path=/home/erfan
+Name=Qt Creator (Opensource)
+GenericName=The IDE of choice for Qt development.
+Icon=QtProject-qtcreator
+Terminal=false
+Categories=Development;IDE;Qt;
+MimeType=text/x-c++src;text/x-c++hdr;text/x-xsrc;application/x-designer;application/vnd.nokia.qt.qmakeprofile;application/vnd.nokia.xml.qt.resource;
+Done
+perform qt.tools.qtcreator operation: CreateDesktopEntry
+	- arguments: DigiaQtOpenSource-qtcreator.desktop, Type=Application
+Exec=/home/erfan/Qt5.1.1/Tools/QtCreator/bin/qtcreator
+Path=/home/erfan
+Name=Qt Creator (Opensource)
+GenericName=The IDE of choice for Qt development.
+Icon=QtProject-qtcreator
+Terminal=false
+Categories=Development;IDE;Qt;
+MimeType=text/x-c++src;text/x-c++hdr;text/x-xsrc;application/x-designer;application/vnd.nokia.qt.qmakeprofile;application/vnd.nokia.xml.qt.resource;
+Done
+backup qt.511.gcc_64.essentials operation: Extract
+	- arguments: installer://qt.511.gcc_64.essentials/5.1.1gcc_64_qt5_essentials.7z, /home/erfan/Qt5.1.1
+Done
+perform qt.511.gcc_64.essentials operation: Extract
+	- arguments: installer://qt.511.gcc_64.essentials/5.1.1gcc_64_qt5_essentials.7z, /home/erfan/Qt5.1.1
+Done
+backup qt.511.gcc_64.essentials operation: Extract
+	- arguments: installer://qt.511.gcc_64.essentials/5.1.1icu_51_1_ubuntu_11_10_64.7z, /home/erfan/Qt5.1.1
+Done
+perform qt.511.gcc_64.essentials operation: Extract
+	- arguments: installer://qt.511.gcc_64.essentials/5.1.1icu_51_1_ubuntu_11_10_64.7z, /home/erfan/Qt5.1.1
+Done
+backup qt.511.gcc_64.essentials operation: Extract
+	- arguments: installer://qt.511.gcc_64.essentials/5.1.1icu_path_patcher.sh.7z, /home/erfan/Qt5.1.1
+Done
+perform qt.511.gcc_64.essentials operation: Extract
+	- arguments: installer://qt.511.gcc_64.essentials/5.1.1icu_path_patcher.sh.7z, /home/erfan/Qt5.1.1
+Done
+backup qt.511.gcc_64.essentials operation: ConsumeOutput
+	- arguments: qt.511.gcc_64_qmakeoutput, /home/erfan/Qt5.1.1/5.1.1/gcc_64/bin/qmake, -query
+Done
+perform qt.511.gcc_64.essentials operation: ConsumeOutput
+	- arguments: qt.511.gcc_64_qmakeoutput, /home/erfan/Qt5.1.1/5.1.1/gcc_64/bin/qmake, -query
+Done
+backup qt.511.gcc_64.essentials operation: QtPatch
+	- arguments: linux, /home/erfan/Qt5.1.1/5.1.1/gcc_64, qt5
+Done
+perform qt.511.gcc_64.essentials operation: QtPatch
+	- arguments: linux, /home/erfan/Qt5.1.1/5.1.1/gcc_64, qt5
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/script/customclass/bytearrayclass.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/script/qsdbg/qsdbg.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/spectrum/spectrum.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/video/qmlvideofx/qmlapplicationviewer/qmlapplicationviewer.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/video/snippets/performancemonitor/performancemonitordeclarative.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/video/snippets/performancemonitor/performancemonitor.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/video/snippets/frequencymonitor/frequencymonitor.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/video/snippets/frequencymonitor/frequencymonitordeclarative.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/widgets/painting/shared/shared.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/touch/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/text/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/gallery/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/basiclayouts/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/tableview/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/splitview/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/gui/rasterwindow/rasterwindow.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/gui/openglwindow/openglwindow.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/declarative/helper/deployment.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/declarative/helper/qmlapplicationviewer/qmlapplicationviewer.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5MultimediaWidgets.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Concurrent.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QuickParticles.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QmlDevTools.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QmlDevTools.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5WebKitWidgets.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Bootstrap.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Multimedia.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5V8.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Network.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5PlatformSupport.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Qml.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5DesignerComponents.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Declarative.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Xml.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5OpenGL.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Help.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5V8.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5QuickParticles.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5WebKitWidgets.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Network.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5MultimediaQuick_p.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Widgets.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Designer.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5MultimediaWidgets.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Sql.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5UiTools.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5CLucene.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Core.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Quick.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Gui.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5QmlDevTools.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5DBus.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5ScriptTools.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5PrintSupport.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Multimedia.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5OpenGLExtensions.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5QuickTest.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Script.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5XmlPatterns.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Concurrent.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Test.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5WebKit.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Bootstrap.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Gui.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Test.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QuickTest.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5OpenGLExtensions.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Multimedia.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Concurrent.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5OpenGL.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5PlatformSupport.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Qml.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5DesignerComponents.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5ScriptTools.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5OpenGL.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Quick.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Help.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5PlatformSupport.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Core.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5CLucene.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Bootstrap.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Test.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Designer.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5UiTools.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QuickParticles.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5CLucene.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Xml.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5WebKitWidgets.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Core.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5DBus.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5PrintSupport.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Widgets.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5XmlPatterns.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5MultimediaQuick_p.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Widgets.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Qml.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QuickTest.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Sql.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5MultimediaWidgets.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5UiTools.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5ScriptTools.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5XmlPatterns.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Sql.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5WebKit.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5V8.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Help.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5DBus.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libqgsttools_p.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Designer.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Quick.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Gui.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5WebKit.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Declarative.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5OpenGLExtensions.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Script.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Script.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5PrintSupport.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5MultimediaQuick_p.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Xml.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5DesignerComponents.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Declarative.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Network.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/features/dbuscommon.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/qdevice.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_designercomponents.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_designer.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_declarative.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_qml.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_widgets.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_qtmultimediaquicktools.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_script.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_xmlpatterns.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_gui.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_multimedia.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_openglextensions.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_concurrent.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_platformsupport.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_scripttools.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_printsupport.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_webkit.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_quickparticles.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_testlib.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_qmldevtools.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_clucene.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_qmltest.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_sql.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_uitools.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_dbus.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_help.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_quick.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_v8.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_core.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_opengl.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_webkitwidgets.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_network.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_xml.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/qconfig.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/qmodule.pri'
+Done
+backup qt.511.gcc_64.essentials operation: Execute
+	- arguments: {0}, /bin/bash, /home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh, /home/erfan/Qt5.1.1/5.1.1/gcc_64
+Done
+perform qt.511.gcc_64.essentials operation: Execute
+	- arguments: {0}, /bin/bash, /home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh, /home/erfan/Qt5.1.1/5.1.1/gcc_64
+/bin/bash" started, arguments: "/home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh /home/erfan/Qt5.1.1/5.1.1/gcc_64
+Done
+backup qt.511.gcc_64.essentials operation: Execute
+	- arguments: {0}, /bin/rm, /home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh
+Done
+perform qt.511.gcc_64.essentials operation: Execute
+	- arguments: {0}, /bin/rm, /home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh
+/bin/rm" started, arguments: "/home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh
+Done
+backup qt.511.gcc_64.essentials operation: Execute
+	- arguments: /home/erfan/Qt5.1.1//Tools/QtCreator/bin/sdktool, addQt, --id, qt.511.gcc_64.essentials, --name, Qt 5.1.1 GCC 64bit, --type, Qt4ProjectManager.QtVersion.Desktop, --qmake, /home/erfan/Qt5.1.1/5.1.1/gcc_64/bin/qmake, UNDOEXECUTE, /home/erfan/Qt5.1.1//Tools/QtCreator/bin/sdktool, rmQt, --id, qt.511.gcc_64.essentials
+Done
+perform qt.511.gcc_64.essentials operation: Execute
+	- arguments: /home/erfan/Qt5.1.1//Tools/QtCreator/bin/sdktool, addQt, --id, qt.511.gcc_64.essentials, --name, Qt 5.1.1 GCC 64bit, --type, Qt4ProjectManager.QtVersion.Desktop, --qmake, /home/erfan/Qt5.1.1/5.1.1/gcc_64/bin/qmake, UNDOEXECUTE, /home/erfan/Qt5.1.1//Tools/QtCreator/bin/sdktool, rmQt, --id, qt.511.gcc_64.essentials
+/home/erfan/Qt5.1.1//Tools/QtCreator/bin/sdktool" started, arguments: "addQt --id qt.511.gcc_64.essentials --name Qt 5.1.1 GCC 64bit --type Qt4ProjectManager.QtVersion.Desktop --qmake /home/erfan/Qt5.1.1/5.1.1/gcc_64/bin/qmake
+Done
+backup qt.511.gcc_64.essentials operation: Execute
+	- arguments: /home/erfan/Qt5.1.1//Tools/QtCreator/bin/sdktool, addKit, --id, qt.511.gcc_64.essentials_kit, --name, Desktop Qt 5.1.1 GCC 64bit, --toolchain, x86-linux-generic-elf-64bit, --qt, qt.511.gcc_64.essentials, --debuggerengine, 1, --devicetype, Desktop, UNDOEXECUTE, /home/erfan/Qt5.1.1//Tools/QtCreator/bin/sdktool, rmKit, --id, qt.511.gcc_64.essentials_kit
+Done
+perform qt.511.gcc_64.essentials operation: Execute
+	- arguments: /home/erfan/Qt5.1.1//Tools/QtCreator/bin/sdktool, addKit, --id, qt.511.gcc_64.essentials_kit, --name, Desktop Qt 5.1.1 GCC 64bit, --toolchain, x86-linux-generic-elf-64bit, --qt, qt.511.gcc_64.essentials, --debuggerengine, 1, --devicetype, Desktop, UNDOEXECUTE, /home/erfan/Qt5.1.1//Tools/QtCreator/bin/sdktool, rmKit, --id, qt.511.gcc_64.essentials_kit
+/home/erfan/Qt5.1.1//Tools/QtCreator/bin/sdktool" started, arguments: "addKit --id qt.511.gcc_64.essentials_kit --name Desktop Qt 5.1.1 GCC 64bit --toolchain x86-linux-generic-elf-64bit --qt qt.511.gcc_64.essentials --debuggerengine 1 --devicetype Desktop
+Done
+backup qt.511.gcc_64.addons operation: Extract
+	- arguments: installer://qt.511.gcc_64.addons/5.1.1gcc_64_qt5_addons.7z, /home/erfan/Qt5.1.1
+Done
+perform qt.511.gcc_64.addons operation: Extract
+	- arguments: installer://qt.511.gcc_64.addons/5.1.1gcc_64_qt5_addons.7z, /home/erfan/Qt5.1.1
+Done
+backup qt.511.gcc_64.addons operation: Extract
+	- arguments: installer://qt.511.gcc_64.addons/5.1.1icu_path_patcher.sh.7z, /home/erfan/Qt5.1.1
+Done
+perform qt.511.gcc_64.addons operation: Extract
+	- arguments: installer://qt.511.gcc_64.addons/5.1.1icu_path_patcher.sh.7z, /home/erfan/Qt5.1.1
+Done
+backup qt.511.gcc_64.addons operation: QtPatch
+	- arguments: linux, /home/erfan/Qt5.1.1/5.1.1/gcc_64, QmakeOutputInstallerKey=qt.511.gcc_64_qmakeoutput, qt5
+Done
+perform qt.511.gcc_64.addons operation: QtPatch
+	- arguments: linux, /home/erfan/Qt5.1.1/5.1.1/gcc_64, QmakeOutputInstallerKey=qt.511.gcc_64_qmakeoutput, qt5
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/script/customclass/bytearrayclass.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/script/qsdbg/qsdbg.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/spectrum/spectrum.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/video/qmlvideofx/qmlapplicationviewer/qmlapplicationviewer.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/video/snippets/performancemonitor/performancemonitordeclarative.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/video/snippets/performancemonitor/performancemonitor.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/video/snippets/frequencymonitor/frequencymonitor.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/multimedia/video/snippets/frequencymonitor/frequencymonitordeclarative.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/widgets/painting/shared/shared.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/touch/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/text/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/gallery/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/basiclayouts/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/tableview/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/quick/controls/splitview/src/src.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/gui/rasterwindow/rasterwindow.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/gui/openglwindow/openglwindow.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/declarative/helper/deployment.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/examples/declarative/helper/qmlapplicationviewer/qmlapplicationviewer.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5MultimediaWidgets.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Concurrent.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QuickParticles.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QmlDevTools.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QmlDevTools.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5WebKitWidgets.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Bootstrap.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Multimedia.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5V8.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Network.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5PlatformSupport.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Qml.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5DesignerComponents.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Declarative.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5SerialPort.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Xml.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5OpenGL.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5X11Extras.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Help.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5V8.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Sensors.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5QuickParticles.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5WebKitWidgets.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Network.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5MultimediaQuick_p.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Widgets.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Designer.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5MultimediaWidgets.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Sql.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5UiTools.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5CLucene.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Core.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Quick.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Gui.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5QmlDevTools.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5DBus.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5ScriptTools.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Svg.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5PrintSupport.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Multimedia.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5OpenGLExtensions.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5QuickTest.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Script.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5XmlPatterns.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Concurrent.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Test.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5WebKit.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/pkgconfig/Qt5Bootstrap.pc'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Gui.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Test.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Sensors.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QuickTest.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5OpenGLExtensions.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Multimedia.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Concurrent.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5OpenGL.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5PlatformSupport.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Svg.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Qml.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5DesignerComponents.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5ScriptTools.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5OpenGL.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Quick.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Help.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5PlatformSupport.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Core.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5CLucene.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Bootstrap.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Svg.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Test.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Designer.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5UiTools.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QuickParticles.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5CLucene.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5X11Extras.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5X11Extras.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Xml.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5WebKitWidgets.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Core.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5DBus.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5SerialPort.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5PrintSupport.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Widgets.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5XmlPatterns.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5SerialPort.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5MultimediaQuick_p.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Widgets.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Qml.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5QuickTest.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Sql.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5MultimediaWidgets.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5UiTools.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5ScriptTools.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5XmlPatterns.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Sql.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5WebKit.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5V8.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Help.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5DBus.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libqgsttools_p.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Designer.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Quick.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Sensors.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Gui.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5WebKit.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Declarative.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5OpenGLExtensions.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Script.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Script.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5PrintSupport.prl'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5MultimediaQuick_p.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Xml.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5DesignerComponents.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Declarative.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/lib/libQt5Network.la'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/features/dbuscommon.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/qdevice.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_designercomponents.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_designer.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_declarative.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_qml.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_svg.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_sensors.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_widgets.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_qtmultimediaquicktools.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_script.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_xmlpatterns.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_gui.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_multimedia.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_openglextensions.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_concurrent.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_platformsupport.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_scripttools.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_printsupport.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_webkit.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_quickparticles.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_testlib.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_qmldevtools.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_clucene.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_qmltest.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_x11extras.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_sql.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_uitools.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_dbus.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_help.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_serialport.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_quick.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_v8.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_core.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_opengl.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_webkitwidgets.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_network.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/modules/qt_lib_xml.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/qconfig.pri'
+QtPatchOperation::getDirContent match: '/home/erfan/Qt5.1.1/5.1.1/gcc_64/mkspecs/qmodule.pri'
+Done
+backup qt.511.gcc_64.addons operation: Execute
+	- arguments: {0}, /bin/bash, /home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh, /home/erfan/Qt5.1.1/5.1.1/gcc_64
+Done
+perform qt.511.gcc_64.addons operation: Execute
+	- arguments: {0}, /bin/bash, /home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh, /home/erfan/Qt5.1.1/5.1.1/gcc_64
+/bin/bash" started, arguments: "/home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh /home/erfan/Qt5.1.1/5.1.1/gcc_64
+Done
+backup qt.511.gcc_64.addons operation: Execute
+	- arguments: {0}, /bin/rm, /home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh
+Done
+perform qt.511.gcc_64.addons operation: Execute
+	- arguments: {0}, /bin/rm, /home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh
+/bin/rm" started, arguments: "/home/erfan/Qt5.1.1/5.1.1/gcc_64/patcher.sh
+Done
+create Error-Exception: "Found a binary data file, but we are the installer and we should read the binary resource from our very own binary!"
+Operations start: 196647
+Operations end: 16
+Resource count: 1
+Data block size: 412875625
+Magic marker: 302133811
+Magic cookie: 14007050384008702200
+Index size: 48
+End of data: 435479133
+Writing uninstaller: "/home/erfan/Qt5.1.1/MaintenanceTool.new"
+Maintenance tool restart: false.
+SHOW FINISHED PAGE
+run application as detached process: "/home/erfan/Qt5.1.1/Tools/QtCreator/bin/qtcreator" () "/home/erfan"

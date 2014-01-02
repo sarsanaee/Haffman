@@ -1,10 +1,9 @@
 class Node:
-    """ In ja ke hamechi maloome niazi be tozih ni """
+    """ Famous node class! """
     def __init__(self, root=None):
         self.Root = root
         self.rightChild = None
         self.leftChild = None
-
 
     def setRightChild(self, right_val):
         self.rightChild = right_val
