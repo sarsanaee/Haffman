@@ -21,10 +21,11 @@ External Libraries
 ------------------
 
 1.bitstring
+2.tar
 -- can be downloaded using the command:
 
     # pip install bitstring
-
+    # pip install tar
 Developers
 ----------
 
