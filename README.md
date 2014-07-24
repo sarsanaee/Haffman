@@ -30,7 +30,9 @@ There are two libraries which you must install them befor using this package
      pip install bitstring
      pip install tar 
      
-you may need to use **sudo**
+** ATTENTION ** : </br>
+* _you may need to use_ **sudo**
+
 Developers
 ----------
 
