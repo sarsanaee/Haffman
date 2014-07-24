@@ -1,4 +1,4 @@
-HUffman
+Huffman
 =======
 
 Python program for encrypting and decrypting text files using huffman algorithm
@@ -26,6 +26,7 @@ External Libraries
 
     # pip install bitstring
     # pip install tar
+    * you maybe need to use **sudo**
 Developers
 ----------
 
