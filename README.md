@@ -19,17 +19,20 @@ And for decryption it gets the tar file and regenerates your text file.
 
 External Libraries
 ------------------
+There are two libraries which you must install them befor using this package 
 
 1.bitstring
 2.tar
--- can be downloaded using the command:
+
+
+-- Installation:
 
     # pip install bitstring
     # pip install tar
- you maybe need to use **sudo**
+ you may need to use **sudo**
 Developers
 ----------
 
-1.Seyyed Alireza Sanaee
+1.Seyed Alireza Sanaee
 
 2.Erfan Sharafzadeh
