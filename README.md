@@ -26,7 +26,7 @@ External Libraries
 
     # pip install bitstring
     # pip install tar
-    * you maybe need to use **sudo**
+ you maybe need to use **sudo**
 Developers
 ----------
 
