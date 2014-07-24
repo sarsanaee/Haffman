@@ -27,8 +27,9 @@ There are two libraries which you must install them befor using this package
 
 ## Installation :
 
-    ``` pip install bitstring ```
-    ``` pip install tar ```
+     pip install bitstring
+     pip install tar 
+     
 you may need to use **sudo**
 Developers
 ----------
